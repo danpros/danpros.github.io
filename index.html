@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f5f2;
+        }
+        .navbar {
+            background-color: #fff;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            color: #6c757d;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            color: #6c757d;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        .blog-title {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .blog-entry {
+            border-bottom: 1px solid #ddd;
+        }
+        .blog-entry h2 {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .blog-entry h2 a {
+            color: #333; /* Dark color */
+            text-decoration: none; /* Remove default underline */
+            transition: all 0.3s ease;
+        }
+        .blog-entry h2 a:hover {
+            text-decoration: underline; /* Add underline when hovered */
+        }
+        .blog-entry p {
+            font-size: 16px;
+            color: #6c757d;
+        }
+        .post-title {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .post-meta {
+            font-size: 16px;
+            color: #6c757d;
+        }
+        .post-content {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .footer {
+            font-size: 14px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light p-2">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">HTMLy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container content pt-4 mt-3">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+            
+                <!-- Begin blog post list -->
+                <h1 class="blog-title mt-4 pt-2 text-center">Lorem Ipsum Blog</h1>
+                <div class="mb-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+                <div class="blog-entry pt-4 pb-4">
+                    <p>APR 16, 2025</p>
+                    <h2><a href="post.html">Lorem Ipsum Article 1</a></h2>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt neque purus, in viverra nisl ultricies ut. Quisque interdum, purus non fringilla pharetra, tellus libero vehicula nisl....</div>
+                </div>
+
+                <div class="blog-entry pt-4 pb-4">
+                    <p>APR 7, 2025</p>
+                    <h2><a href="post.html">Lorem Ipsum Article 2</a></h2>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt neque purus, in viverra nisl ultricies ut. Quisque interdum, purus non fringilla pharetra, tellus libero vehicula nisl...</div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination-container mt-5 text-center">
+                    <nav>
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- End blog post list -->
+            
+            </div>
+        </div> 
+    </div>
+
+    <div class="footer text-center pt-4 pb-4 mt-5">
+        <p>&copy; 2025 HTMLy Blog | All rights reserved</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
